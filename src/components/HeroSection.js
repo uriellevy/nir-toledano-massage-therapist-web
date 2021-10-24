@@ -13,7 +13,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--outline"
           buttonSize="btn--large"
-          path="/about"
+          
         >
           ספר לי עוד
         </Button>
@@ -22,7 +22,7 @@ function HeroSection() {
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
-          path="/contact"
+          
           onClick={console.log("hey")}
         >
           קבע עכשיו
