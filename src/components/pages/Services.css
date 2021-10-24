@@ -1,0 +1,86 @@
+.services-container {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f4f4f4;
+  padding-bottom: 70px;
+}
+
+.services-container > h1 {
+  font-size: 3rem;
+  /* background-color: #333; */
+  padding: 10px;
+  border-bottom: 3px solid #333;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.carousel {
+  width: 60%;
+  height: 600px;
+  background-color: black;
+}
+
+.carousel-inner {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+}
+
+.carousel-inner .left {
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+
+.carousel-inner .center {
+  flex: 80%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  background-color: rgba(0, 0, 0, 0.3);
+  text-align: center;
+  text-align: justify;
+}
+
+.services h1 {
+  font-size: 2.7rem;
+}
+
+.services p {
+  font-size: 1.6rem;
+  max-width: 900px;
+}
+
+.services h1 {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  padding: 20px;
+  border-radius: 9px;
+  text-align: center;
+}
+
+.services p {
+  /* background-color: rgba(255, 255, 255, 0.3); */
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-inner .right {
+  flex: 5%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: grid;
+  place-items: center;
+  color: #fff;
+  cursor: pointer;
+}
