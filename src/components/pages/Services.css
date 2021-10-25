@@ -1,12 +1,12 @@
 .services-container {
   width: 100vw;
-  height: 80vh;
+  min-height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   color: #f4f4f4;
-  padding-bottom: 70px;
+  padding-bottom: 5rem;
 }
 
 .services-container > h1 {
