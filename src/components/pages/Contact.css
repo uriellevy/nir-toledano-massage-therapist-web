@@ -98,3 +98,10 @@
     grid-column: span 2;
   }
 }
+
+@media (max-width: 500px) {
+  .contact-container h1 {
+    font-size: 2rem;
+    width: 150px;
+  }
+}

@@ -28,7 +28,9 @@ const Services = () => {
             <div className="center">
               <h1>{images[currImg].title}</h1>
               <p>{images[currImg].subtitle}</p>
-              <Button buttonStyle="btn--test">צור קשר</Button>
+              <Button buttonStyle="btn--test" pathway="./contact">
+                צור קשר
+              </Button>
             </div>
             <div
               className="right"
