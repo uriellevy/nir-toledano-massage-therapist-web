@@ -1,7 +1,6 @@
 .about {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(/src/img/carlos-de-miguel-Kq2WV3WPrYU-unsplash.jpg) no-repeat center
-      center/cover fixed;
+    url(/src/img/about.jpg) no-repeat center center/cover fixed;
   min-height: 100vh;
   width: 100%;
   color: #fff;
@@ -56,7 +55,7 @@
         rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.3)
       ),
-      url(/src/img/carlos-de-miguel-Kq2WV3WPrYU-unsplash.jpg);
+      url(/src/img/about.jpg);
     background-position: center;
     background-attachment: scroll;
     -o-background-size: cover;

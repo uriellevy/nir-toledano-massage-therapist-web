@@ -8,15 +8,12 @@
 }
 
 .contact-container h1 {
-  color: #666;
   font-size: 3rem;
+  /* background-color: #333; */
+  padding: 10px;
+  border-bottom: 3px solid #333;
   margin-bottom: 30px;
-  /* border-bottom: 3px solid #333; */
-  width: 100%;
-  text-shadow: 1px 1px 0 #fff, 2px 2px 0 #fff;
-  padding: 0 15px 15px 15px;
-  /* background-color: #fec810; */
-  text-align: center;
+  color: #333;
 }
 
 .services-container > h1 {
@@ -101,9 +98,9 @@
   }
 }
 
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .contact-container h1 {
     font-size: 2rem;
     width: 150px;
   }
-}
+} */
