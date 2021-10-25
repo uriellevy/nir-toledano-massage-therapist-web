@@ -1,7 +1,7 @@
 .contact-container {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 2rem 2rem;
+  padding: 4rem 2rem 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -15,6 +15,7 @@
   width: 200px;
   text-shadow: 1px 1px 0 #fff, 2px 2px 0 #fff;
   padding: 0 15px 15px 15px;
+  background-color: #fec810;
 }
 
 .services-container > h1 {
