@@ -57,6 +57,7 @@ const Contact = () => {
                 aria-label="Phone Number"
                 placeholder="מס' טלפון *"
                 required
+                name="phone-number"
               />
               <textarea
                 className="message form-control"
