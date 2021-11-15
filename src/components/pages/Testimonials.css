@@ -64,6 +64,8 @@
 .testimonials p {
   font-size: 1.6rem;
   max-width: 900px;
+  padding: 20px;
+  text-align: center;
 }
 
 .testimonials .fa-quote-right {
@@ -72,12 +74,6 @@
   border-radius: 9px;
   text-align: right;
   font-size: 2rem;
-}
-
-.testimonials p {
-  /* background-color: rgba(255, 255, 255, 0.3); */
-  padding: 20px;
-  text-align: center;
 }
 
 .carousel-inner-1 .right {
@@ -101,5 +97,25 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+
+  .testimonials p {
+    font-size: 1rem;
+  }
+
+  .testimonials .fa-quote-right {
+    font-size: 1.6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .testimonials p {
+    font-size: 0.7rem;
+    padding: 10px;
+  }
+
+  .testimonials .fa-quote-right {
+    font-size: 1.2rem;
+    padding: 10px;
   }
 }
