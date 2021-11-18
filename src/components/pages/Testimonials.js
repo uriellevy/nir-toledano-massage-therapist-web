@@ -10,7 +10,7 @@ const Testimonials = () => {
   return (
     <>
       <div className="testimonials-container">
-        <h1>ממליצים</h1>
+        <h1 className="title">ממליצים</h1>
         <div className="testimonials">
           <div className="carousel-inner-1">
             <div

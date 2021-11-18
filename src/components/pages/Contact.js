@@ -29,7 +29,7 @@ const Contact = () => {
     <>
       <div>
         <div className="contact-container">
-          <h1>צור קשר</h1>
+          <h1 className="title">צור קשר</h1>
           <div className="form">
             <form onSubmit={sendEmail}>
               <input

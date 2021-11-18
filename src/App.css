@@ -11,6 +11,10 @@ body {
   font-family: "Zen Kurenaido", sans-serif;
 }
 
+.title {
+  font-size: 3rem !important;
+}
+
 .home,
 .services {
   display: flex;
@@ -23,5 +27,9 @@ body {
 @media (max-width: 500px) {
   .services {
     height: 60vh;
+  }
+
+  .title {
+    font-size: 2rem !important;
   }
 }

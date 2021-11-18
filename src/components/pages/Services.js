@@ -11,7 +11,7 @@ const Services = () => {
   return (
     <>
       <div className="services-container">
-        <h1>טיפולים</h1>
+        <h1 className="title">טיפולים</h1>
         <div className="services">
           <div
             className="carousel-inner"
