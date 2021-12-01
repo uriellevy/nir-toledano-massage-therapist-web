@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Button } from "./Button";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -28,49 +28,56 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
+          <NavLink to="/" className="navbar-logo" onClick={closeMobileMenu}>
             <img
               src={require("../img/logo-white.png").default}
               alt=""
               className="gallery-image"
             />
-          </Link>
+          </NavLink>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
-              <Link to="/about" className="nav-links" onClick={closeMobileMenu}>
+              <NavLink
+                to="/about"
+                className="nav-links"
+                activeClassName="nav-active"
+                onClick={closeMobileMenu}
+              >
                 על עצמי
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 to="/services"
                 className="nav-links"
+                activeClassName="nav-active"
                 onClick={closeMobileMenu}
               >
                 טיפולים
-              </Link>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <Link
+              <NavLink
                 to="/testimonials"
                 className="nav-links"
+                activeClassName="nav-active"
                 onClick={closeMobileMenu}
               >
                 ממליצים
-              </Link>
+              </NavLink>
             </li>
 
             <li>
-              <Link
+              <NavLink
                 to="/contact"
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
                 צור קשר
-              </Link>
+              </NavLink>
             </li>
           </ul>
           {button && (

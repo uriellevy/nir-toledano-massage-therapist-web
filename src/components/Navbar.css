@@ -65,6 +65,11 @@
   transition: all 0.2s ease-out;
 }
 
+.nav-active {
+  border-bottom: 4px solid #fff;
+  transition: all 0.2s ease-out;
+}
+
 .fa-bars {
   color: #fff;
 }
@@ -149,5 +154,10 @@
     background: #fff;
     color: #242424;
     transition: 250ms;
+  }
+
+  .nav-active {
+    border-bottom: none;
+    transition: none;
   }
 }
