@@ -64,6 +64,7 @@
   padding: 0 2rem;
   margin: 0 auto;
   cursor: pointer;
+  transition: all 0.15s;
 }
 
 .contact-btn:hover {
@@ -85,6 +86,15 @@
   .form-control {
     width: auto;
     margin: 0;
+    display: flex;
+  }
+
+  .form-control::placeholder {
+    text-align: right;
+  }
+
+  .form-control:last-child {
+    align-items: center;
   }
 
   .message {
