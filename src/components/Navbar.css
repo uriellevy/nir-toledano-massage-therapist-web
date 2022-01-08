@@ -72,6 +72,9 @@
 
 .fa-bars {
   color: #fff;
+  position: absolute;
+  top: 26px;
+  right: 30px;
 }
 
 .nav-links-mobile {
