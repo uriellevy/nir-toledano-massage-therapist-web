@@ -36,7 +36,7 @@
 .carousel-inner .left {
   flex: 5%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   display: grid;
   place-items: center;
   color: #fff;
@@ -48,7 +48,7 @@
   height: 100%;
   display: grid;
   place-items: center;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   text-align: center;
   text-align: justify;
 }
@@ -78,7 +78,7 @@
 .carousel-inner .right {
   flex: 5%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   display: grid;
   place-items: center;
   color: #fff;

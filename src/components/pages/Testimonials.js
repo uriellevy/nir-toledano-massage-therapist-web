@@ -19,7 +19,7 @@ const Testimonials = () => {
                 currTxt > 0 && setCurrTxt(currTxt - 1);
               }}
             >
-              <ArrowBackIosIcon style={{ fontSize: 30 }} />
+              <ArrowBackIosIcon style={{ fontSize: 40 }} />
             </div>
             <div className="center">
               <i className="fas fa-quote-right"></i>
@@ -32,7 +32,7 @@ const Testimonials = () => {
                 currTxt < testimonials.length - 1 && setCurrTxt(currTxt + 1);
               }}
             >
-              <ArrowForwardIosIcon style={{ fontSize: 30 }} />
+              <ArrowForwardIosIcon style={{ fontSize: 40 }} />
             </div>
           </div>
         </div>

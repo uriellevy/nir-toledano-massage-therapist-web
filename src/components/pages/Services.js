@@ -23,7 +23,7 @@ const Services = () => {
                 currImg > 0 && setCurrImg(currImg - 1);
               }}
             >
-              <ArrowBackIosIcon style={{ fontSize: 30 }} />
+              <ArrowBackIosIcon style={{ fontSize: 40 }} />
             </div>
             <div className="center">
               <h1>{images[currImg].title}</h1>
@@ -38,7 +38,7 @@ const Services = () => {
                 currImg < images.length - 1 && setCurrImg(currImg + 1);
               }}
             >
-              <ArrowForwardIosIcon style={{ fontSize: 30 }} />
+              <ArrowForwardIosIcon style={{ fontSize: 40 }} />
             </div>
           </div>
         </div>
