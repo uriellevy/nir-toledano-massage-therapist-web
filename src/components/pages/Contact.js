@@ -40,6 +40,7 @@ const Contact = () => {
                 aria-label="Name"
                 placeholder="שם מלא *"
                 required
+                dir="rtl"
               />
               <input
                 className="form-control"
@@ -49,6 +50,7 @@ const Contact = () => {
                 aria-label="Email"
                 placeholder="אימייל *"
                 required
+                dir="rtl"
               />
               <input
                 className="form-control"
@@ -58,6 +60,7 @@ const Contact = () => {
                 placeholder="מס' טלפון *"
                 required
                 name="phone-number"
+                dir="rtl"
               />
               <textarea
                 className="message form-control"
@@ -66,6 +69,7 @@ const Contact = () => {
                 aria-label="Message"
                 placeholder="הודעה *"
                 required
+                dir="rtl"
               ></textarea>
               <button type="submit" className="contact-btn  form-control">
                 שלח
