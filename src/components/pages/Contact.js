@@ -10,7 +10,7 @@ const Contact = () => {
     emailjs
       .sendForm(
         "gmail",
-        "template_qq54n6u",
+        "template_06p5fxs",
         e.target,
         "user_crcSLVsR3W2BhTJ0IJTYF"
       )
@@ -59,7 +59,7 @@ const Contact = () => {
                 aria-label="Phone Number"
                 placeholder="מס' טלפון *"
                 required
-                name="phone-number"
+                name="phone"
                 dir="rtl"
               />
               <textarea
